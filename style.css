@@ -124,3 +124,54 @@ footer{
     padding:20px;
     margin-top:40px;
 }
+.contact-card{
+    background: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-card h3{
+    color: #4a6cf7;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.contact-card p{
+    font-size: 16px;
+    margin: 8px 0;
+    color: #333;
+}
+
+.contact-card .copy{
+    margin-top: 15px;
+    font-size: 12px;
+    color: gray;
+}
+body{
+    background: linear-gradient(135deg, #e0e7ff, #f5f7ff);
+}
+
+/* حركة جميلة عند المرور */
+.contact-card{
+    transition: 0.3s ease;
+}
+
+.contact-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* رابط الإيميل */
+.contact-card a{
+    color: #4a6cf7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-card a:hover{
+    text-decoration: underline;
+}
